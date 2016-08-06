@@ -1,0 +1,17 @@
+#
+# Build set for libxml
+#
+
+%define release 2
+
+#
+#The RTEMS Package Defines
+#
+
+%include rtems-package.bset
+
+#
+#Build libxml
+#
+textproc/libxml2-2.7.8 
+
